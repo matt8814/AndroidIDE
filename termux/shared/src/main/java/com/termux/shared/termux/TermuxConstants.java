@@ -371,9 +371,9 @@ public final class TermuxConstants {
      */
 
     /** Termux Packages GitHub repo name */
-    public static final String TERMUX_PACKAGES_GITHUB_REPO_NAME = "terminal-packages"; // Default: "terminal-packages"
+    public static final String TERMUX_PACKAGES_GITHUB_REPO_NAME = "termux-packages"; // Default: "terminal-packages"
     /** Termux Packages GitHub repo url */
-    public static final String TERMUX_PACKAGES_GITHUB_REPO_URL = TERMUX_GITHUB_ORGANIZATION_URL + "/" + TERMUX_PACKAGES_GITHUB_REPO_NAME; // Default: "https://github.com/termux/termux-packages"
+    public static final String TERMUX_PACKAGES_GITHUB_REPO_URL = "https://github.com/termux" + "/" + TERMUX_PACKAGES_GITHUB_REPO_NAME; // Default: "https://github.com/termux/termux-packages"
     /** Termux Packages GitHub issues repo url */
     public static final String TERMUX_PACKAGES_GITHUB_ISSUES_REPO_URL = TERMUX_PACKAGES_GITHUB_REPO_URL + "/issues"; // Default: "https://github.com/termux/termux-packages/issues"
 
@@ -416,9 +416,6 @@ public final class TermuxConstants {
 
     /** Termux support email mailto url */
     public static final String TERMUX_SUPPORT_EMAIL_MAILTO_URL = "mailto:" + TERMUX_SUPPORT_EMAIL_URL; // Default: "mailto:support@termux.dev"
-
-
-
 
 
     /*
